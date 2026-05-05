@@ -1,0 +1,10 @@
+[package]
+name = "ts-explorer"
+version = "0.1.8"
+edition = "2021"
+author = "contributor"
+description = "A utility crate"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
